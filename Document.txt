@@ -1,0 +1,7 @@
+L09-Activity Log
+
+1. I started out by loading the code into my Program.cs file and running the code with dotnet run.
+2. After running the code I recognize that some of the code does not run so I set a breakpoint on line 1 as I'm not really sure where the program is not working at.
+3. I click the run debugger button to start up the debugger.
+4. In going through the debugger I figured out that the equation in the foreach loop was looking for the spaces and stopping at the final space. To correct it I could either change the math or change what it was looking for to end the loop. 
+5.To create a simple fix I added an additional space after the T at the end of BST so the foreach loop would read the final space and print all of the compononents for the characters and words. 
